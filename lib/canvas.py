@@ -17,6 +17,8 @@ class canvas(Canvas):
               [5, 4, 1, 1], [5, 5, 3, 2], [5, 6, 3, 3], [5, 5, 5, 5]]
         self.step()
         for dk in rd:
+            self.sp.dkkd += 20
+            self.sp.dk += 20
             self.mob1.ru(int(dk[0]))
             self.mob2.ru(int(dk[1]))
             self.mob3.ru(int(dk[2]))
